@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Clicker</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo-div col-12">
+                    <img class="col-1"src="../img/Logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href=""></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuContent"
+                aria-controls="menuContent"
+                aria-expanded="false"
+                aria-label="Show/Hide Navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../aboutUs.html" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+
+                <form action="" class="d-flex">
+                    <input
+                     type="text"
+                     class="form-control me-2"
+                     aria-label="Search"
+                     placeholder="Search"
+
+                    >
+                    <button class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main class="container">
+        <div class="row">
+            <div class="col-8 mt-5">
+                <img class="col-12" src="../img/products/5.png" alt="">
+            </div>
+            <div class="col-4 mt-5 product-single">
+                <h1 class="text-center">FIDGET CLICKER</h1>
+                <div class="product-info">
+                    <p>Amazing fidget clicker toy. With multiple buttons and joystick.</p>
+                    <h3 class="text-center">$6.99</h3>
+                    <div class="quantity-selector">
+                        <button onclick="decreaseQuanity()"><</button>
+                        <h4 id="QuantityProduct">1</h4>
+                        <button onclick="increaseQuantity()">></button>
+                    </div>
+                    <button onClick="addToCart()" class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="product-details mt-5">
+                    <h4>Details: </h4>
+                    <ul>
+                        <li>Incorporates a joystick</li>
+                        <li>Multiple buttons with different sensations</li>
+                        <li>Mate black material with a great sensation at touch</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 social-media">
+                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col-12">
+                    <p>UNLAX &copy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+</html>

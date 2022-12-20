@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Contact us</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="logo-div col-12">
+                    <img class="col-1"src="img/Logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href=""></a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menuContent"
+                aria-controls="menuContent"
+                aria-expanded="false"
+                aria-label="Show/Hide Navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menuContent">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutUs.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contactUs.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <form action="" class="d-flex">
+                    <input
+                     type="text"
+                     class="form-control me-2"
+                     aria-label="Search"
+                     placeholder="Search"
+
+                    >
+                    <button class="btn btn-primary">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main class="container contactUs-container">
+        <!-- FAQ Section -->
+<section id="faq" class="container mt-5">
+    <h2 class="text-center mb-3">Frequently Asked Questions</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-header">
+            <h3>What is a fidget toy?</h3>
+          </div>
+          <div class="card-body">
+            <p>A fidget toy is a small handheld gadget that is designed to provide a calming and satisfying sensory experience for the user. Fidget toys are often used to relieve stress, anxiety, and boredom, and can help to improve focus and concentration. They come in a variety of shapes, sizes, and materials, and can be manipulated in different ways, such as twisting, turning, or squeezing.</p>
+          </div>
+        </div>
+        <div class="card mb-3">
+          <div class="card-header">
+            <h3>Are fidget toys suitable for all ages?</h3>
+          </div>
+          <div class="card-body">
+            <p>Fidget toys are generally suitable for people of all ages, although some may be more suitable for children or adults. It's always a good idea to check the recommended age range on the product packaging or description before purchasing a fidget toy for a child. Some fidget toys may contain small parts that could be a choking hazard for young children.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3">
+          <div class="card-header">
+            <h3>How do I care for my fidget toy?</h3>
+          </div>
+          <div class="card-body">
+            <p>It's important to take care of your fidget toy to ensure that it lasts as long as possible. Here are a few tips for caring for your fidget toy:</p>
+            <ul class="list-unstyled">
+              <li>Store your fidget toy in a dry, cool place when not in use</li>
+              <li>Avoid getting your fidget toy wet or exposing it to extreme temperatures</li>
+              <li>Clean your fidget toy regularly with a dry cloth or brush</li>
+              <li>Replace any worn or damaged parts promptly</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+        <div class="row">
+            <div class="text-center mt-5 formTitle">
+                <h1>USE THE FOLLOWING FORM IF YOU HAVE ANY QUESTIONS</h1>
+            </div>
+            <div class="col-12">
+                <form action="/contact-form-handler" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message"></textarea>
+                    <input type="submit" value="Submit">
+                </form>    
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 social-media">
+                    <div class="icon-box box-facebook">
+                        <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+                    </div>
+                    <div class="icon-box box-insta">
+                        <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <div class="icon-box box-twitter">
+                        <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <p>FUNLAX &copy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

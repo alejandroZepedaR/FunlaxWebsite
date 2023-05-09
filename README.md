@@ -1,3 +1,6 @@
+# Project Description
+This is the final project for a college eCommerce course. The goal of this project was to demonstrate my ability to develop an ecommerce brand from scratch and implement effective marketing, pricing, and business strategies. Overall, this project allowed me to demonstrate my understanding of how to develop and launch an ecommerce brand, create effective marketing strategies, price products, and develop a sustainable business model.
+
 # Funlax eCommerce
 
 Funlax eCommerce is an online company that sells fidget toys to kids aged 6-12 and people of any age with anxiety or stress. We use Long Tail Marketing (LTM) to target niche markets and use social media platforms such as TikTok, Instagram, and Facebook to promote our products.
